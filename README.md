@@ -32,5 +32,6 @@ $ git push origin newBranchName # adds new branch to github repo
 # Mergeing new branch to old branch
 $ git checkout oldBranchName
 $ git merge newBranchName #
+$ git push origin oldBranchName
 $ git branch -d branchNameToDelete # delete branch while you are on a different branch
 ```
